@@ -2,5 +2,5 @@ db.sqlite3
 .idea/
 venv/
 demandsProject/__pycache__/
-app_models/migrations/
-app_models/__pycache__/
+app/migrations/
+app/__pycache__/
