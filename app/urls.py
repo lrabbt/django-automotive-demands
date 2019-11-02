@@ -5,7 +5,7 @@ from . import views
 router = routers.DefaultRouter()
 router.register(r'people', views.PersonViewSet)
 router.register(r'demands', views.DemandsViewSet)
-router.register(r'contacts', views.ContactSerializer)
+# router.register(r'contacts', views.ContactSerializer)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
